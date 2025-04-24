@@ -1,0 +1,11 @@
+erik-schuetze.dev, www.erik-schuetze.dev {
+    # Serve over HTTPS (Caddy automatically handles this)
+    root * /usr/share/caddy/erik-schuetze
+    file_server
+}
+
+a-pound-of-flesh.com, www.a-pound-of-flesh.com {
+    # Serve over HTTPS (Caddy automatically handles this)
+    root * /usr/share/caddy/a-pound-of-flesh
+    file_server
+}
