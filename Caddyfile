@@ -9,3 +9,9 @@ a-pound-of-flesh.com, www.a-pound-of-flesh.com {
     root * /usr/share/caddy/a-pound-of-flesh
     file_server
 }
+
+seojeong-park.de, www.seojeong-park.de {
+    # Serve over HTTPS (Caddy automatically handles this)
+    root * /usr/share/caddy/seojeong-park
+    file_server
+}
